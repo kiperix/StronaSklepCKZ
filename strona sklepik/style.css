@@ -1,0 +1,446 @@
+body{
+    margin: 0;
+    
+}
+.pageOne{
+    color: white;
+    background-color: black;
+    position: relative;
+    height: 100vh;
+}
+
+
+span{
+    color: red;
+    
+    
+}
+header{
+    color: white;
+    font-weight:bold;
+    font-size:xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+.nawigacja{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+ul{
+    display: flex;
+   list-style: none;
+   align-items: flex-end;
+
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+ul li{
+    margin-left: 20px;
+    
+}
+#color{
+    background-color:darkorchid;
+    padding: 10px;
+    border-radius: 5%;
+}
+.nawigacja a:hover{
+    transition: color 0.3s ease;
+    color: #007BFF;
+}
+.Home_sekcja1{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    
+   
+
+}
+.Home_sekcja1 .zdjecie_sekcja1{
+    width: 40%;
+    height: 40%;
+    padding: 10%;
+  
+    
+}
+
+.zdjecie_sekcja1{
+    display: flex;
+    justify-content: center;
+}
+
+.napislewy h1{
+    font-size:80px;
+}
+.przyciski_sekcja1 button{
+    background-color: red;
+    padding: 8px;
+    border: 0px;
+    font-family: Verdana;
+    border-radius:10%;
+    
+}
+button:hover{
+    background-color: aqua;
+    color: red;
+    font-weight: bold;
+}
+.uklad_sekcja2{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.uklad_sekcja2 div{
+    flex-basis: 25%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    text-align: center;
+   
+    
+    
+}
+.tekst_sekcja2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.tekst_sekcja2 span{
+    color:blue;
+}
+h2{
+    font-size: xx-large;
+}
+.Services_sekcja2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.ico{
+   width: 50px;
+    background-color:blueviolet;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+.Projects_sekcja3{
+
+background-color: darkslategray;
+color: white;
+position: relative;
+
+}
+.tekst_sekcja3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.tekst_sekcja3 h2{
+    color:red;
+}
+.menu_sekcja3 a:hover{
+
+color: aqua;
+padding: 10px;
+transition: color 0.3s ease;
+    color: #007BFF;
+}
+.menu_sekcja3{
+    display: flex;
+   justify-content: center;
+   height: 150px;
+    
+}
+.container_sekcja3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.container_sekcja3 div{
+   display: flex;
+   flex-direction: column;
+   flex-basis: 30%;
+   align-items: center;
+   margin-bottom: 30px;
+   border: 5px solid black;
+   box-shadow: 0px 0px 20px 2px cyan;
+   
+   
+}
+.container_sekcja3 img{
+    border: 2px solid black;
+    box-shadow: 0px 0px 20px 2px cyan;
+}
+.container_sekcja3 a:hover{
+    box-shadow: 0px 0px 20px 2px magenta;
+   
+    
+    
+}
+.About_sekcja4{
+   
+        display: flex;
+        justify-content: center;
+        flex-direction: column; 
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    
+}
+.About_sekcja4 h5{
+    color:orangered;
+    font-size: x-large;
+    margin: 40px 0 0 0;
+}
+.About_sekcja4 h3{
+    font-size: xx-large;
+    margin: 10px  0 0 0;
+}
+.container_sekcja4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+    
+}
+.wpisy{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    gap: 150px;
+    margin-top: 50px;
+    
+}
+.wpisy div{
+    box-shadow: 0px 0px 20px 2px grey;
+    width: 350px;
+}
+.wpisy button{
+    background-color: white;
+    color: purple;
+    border: none;
+}
+#sztrzalka{
+    width: 15px;
+}
+.wpisy a{
+    text-decoration: none;
+    color: purple;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wpisy a:hover{
+    background-color: blueviolet;
+    color: chartreuse;
+    font-weight: bold;
+    
+}
+.napis_sekcja5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px;
+}
+.formularz{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0px;
+    
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#007BFF;
+    border-radius: 5%;
+    width: 400px;
+    box-shadow: 0px 0px 20px 2px #007BFF;
+    width: 30%;
+}
+.formularz form{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    
+   
+}
+.pierwszakolumna{
+    display: flex;
+    justify-content: space-between;
+
+}
+.pierwszakolumna input{
+    width: 45%;
+}
+.formularz form {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, sans-serif;
+}
+
+
+.pierwszakolumna {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.pierwszakolumna input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.drugakolumna {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.drugakolumna input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+input[type="text"] {
+    width: 100%;
+}
+
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.formularz button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.address h2{
+
+color: white;
+text-shadow: black 2px 0 10px; 
+
+
+}
+.address a{
+    text-decoration: none;
+    color:white
+}
+.address a:hover{
+    transition: color 0.3s ease;
+    font-weight: bolder;
+    color: black;
+}
+.stopka{
+    background-color: rgb(32, 32, 32);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.czesc1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-basis: 30%;
+    margin-left: 50px;
+}
+.czesc2{
+    display: flex;
+    flex-direction: column;
+   flex-basis: 30%;
+   margin-left: 10%;
+}
+.czesc2 li{
+    display: flex;
+    flex-direction: column;
+}
+.czesc3{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+.stopka a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.stopka a:hover{
+    transition: color 0.3s ease;
+    color: #007BFF;
+}
+footer{
+    background-color:black;
+    color: white;
+    display: flex;
+}
+.footer1{
+    display: flex;
+width: 50%;
+justify-content: center;
+}
+.footer2{
+display: flex;
+width: 50%;
+justify-content: center;
+}
+.footer2 a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+.footer2 a:hover{
+    transition: color 0.3s ease;
+    color: #007BFF;
+}
+.active{
+    padding: 10px;
+    transition: color 0.3s ease;
+    color: #007BFF;
+}
+#error-message{
+   color: red;
+   display: flex;
+   font-weight: bold;
+}
